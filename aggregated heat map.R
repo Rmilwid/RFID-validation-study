@@ -4,7 +4,7 @@
 
 rm(list = ls(all = TRUE))
 
-setwd('C:/Users/A/Documents/PhD/thesis/code/Results/Weybread Hill Farm_nov15_2016')
+setwd('C:/Users/A/Documents/PhD/thesis/code/Results/')
 library(igraph)
 library(jpeg)
 library(xlsx)
@@ -20,8 +20,8 @@ library(gtools)
 #heatmap
 file3<-"C:/Users/a/Documents/PhD/thesis/thesis doc/Thesis articles/pilot study/methods/figures/res_" #heatmap(by day)
 #input the file path where the edge and vertice lists are stored
-inputv<-list.files("C:/Users/A/Documents/PhD/thesis/code/Results/Weybread Hill Farm_nov15_2016/", pattern = ".*vertices.csv") 
-inpute<-list.files("C:/Users/A/Documents/PhD/thesis/code/Results/Weybread Hill Farm_nov15_2016/", pattern = "day.*.csv")
+inputv<-list.files("C:/Users/A/Documents/PhD/thesis/code/Results//", pattern = ".*vertices.csv") 
+inpute<-list.files("C:/Users/A/Documents/PhD/thesis/code/Results//", pattern = "day.*.csv")
 
 
 #use these for wing function where the two numbers in the coordinate represent the min and max value of the wing
